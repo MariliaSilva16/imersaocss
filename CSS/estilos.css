@@ -1,0 +1,38 @@
+body {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    background-size: auto 100vh; 
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none; 
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle, 
+  .site-title {
+    color: gold;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+   font-style: italic;
+  
